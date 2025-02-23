@@ -1,0 +1,166 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+         version="3.0">
+    
+    <!-- Admin Login Servlet -->
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>AdminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Add Gym Member Servlet -->
+    <servlet>
+        <servlet-name>AddGymMemberServlet</servlet-name>
+        <servlet-class>AddGymMemberServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddGymMemberServlet</servlet-name>
+        <url-pattern>/AddGymMemberServlet</url-pattern>
+    </servlet-mapping>
+
+     <!-- Servlet for adding a gym member -->
+    <servlet>
+        <servlet-name>RemoveGymMemberServlet</servlet-name>
+        <servlet-class>RemoveGymMemberServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RemoveGymMemberServlet</servlet-name>
+        <url-pattern>/RemoveGymMemberServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet for searching gym member -->
+    <servlet>
+        <servlet-name>SearchGymMemberServlet</servlet-name>
+        <servlet-class>SearchGymMemberServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SearchGymMemberServlet</servlet-name>
+        <url-pattern>/SearchGymMemberServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet for updating payment status -->
+    <servlet>
+        <servlet-name>UpdatePaymentServlet</servlet-name>
+        <servlet-class>UpdatePaymentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdatePaymentServlet</servlet-name>
+        <url-pattern>/UpdatePaymentServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet for receiving payment -->
+    <servlet>
+        <servlet-name>ReceivePaymentServlet</servlet-name>
+        <servlet-class>ReceivePaymentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReceivePaymentServlet</servlet-name>
+        <url-pattern>/ReceivePaymentServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Servlet for checking payment status -->
+    <servlet>
+        <servlet-name>CheckPaymentServlet</servlet-name>
+        <servlet-class>CheckPaymentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckPaymentServlet</servlet-name>
+        <url-pattern>/CheckPaymentServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>MemberLoginServlet</servlet-name>
+    <servlet-class>MemberLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MemberLoginServlet</servlet-name>
+        <url-pattern>/MemberLoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetUserDetailsServlet</servlet-name>
+        <servlet-class>GetUserDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetUserDetailsServlet</servlet-name>
+        <url-pattern>/GetUserDetailsServlet</url-pattern>
+    </servlet-mapping>
+    
+<servlet>
+        <servlet-name>GetAdminDetailsServlet</servlet-name>
+        <servlet-class>GetAdminDetailsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetAdminDetailsServlet</servlet-name>
+        <url-pattern>/GetAdminDetailsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DietPlanServlet</servlet-name>
+        <servlet-class>DietPlanServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DietPlanServlet</servlet-name>
+        <url-pattern>/DietPlanServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>AddNewAdminServlet</servlet-name>
+    <servlet-class>AddNewAdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddNewAdminServlet</servlet-name>
+    <url-pattern>/AddNewAdminServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>ChangeMemberPasswordServlet</servlet-name>
+        <servlet-class>ChangeMemberPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeMemberPasswordServlet</servlet-name>
+        <url-pattern>/ChangeMemberPasswordServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangeAdminPasswordServlet</servlet-name>
+        <servlet-class>ChangeAdminPasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangeAdminPasswordServlet</servlet-name>
+        <url-pattern>/ChangeAdminPasswordServlet</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>AdminLogoutServlet</servlet-name>
+        <servlet-class>AdminLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogoutServlet</servlet-name>
+        <url-pattern>/AdminLogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MemberLogoutServlet</servlet-name>
+        <servlet-class>MemberLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MemberLogoutServlet</servlet-name>
+        <url-pattern>/MemberLogoutServlet</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
